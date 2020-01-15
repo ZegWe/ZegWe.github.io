@@ -398,8 +398,36 @@
 
 
                         </div>
-                    </div>
-                </div>
+					</div>
+				</div>
+				
+				<p>An undergraduate study in Najing University of Aeronautics and Astronautics(NUAA). Love computer technology but not a student in this major.</p>
+<p>OS X/Win10/Android User</p>
+<p>Used to be an OIer, and an ACMer now.</p>
+<p>A novice player of Osu! and Dota2.</p>
+<p>Interested in Japanese culture, and used to be an enthusiast of ACG. But I’m trying to be a realist and focus on the present now.</p>
+<p>Big fan of James Blunt and Aragaki Yui.</p>
+<p>An Amateur Harmonica player.</p>
+<p>…</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
 
                 <div class="introduction center-align" data-aos="fade-up">NUAAer</div>
 
