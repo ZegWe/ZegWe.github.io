@@ -71,6 +71,17 @@
   
   <li class="hide-on-med-and-down nav-item">
     
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
     <a href="/archives" class="waves-effect waves-light">
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
@@ -156,6 +167,17 @@
 			    <i class="fa-fw fas fa-tags"></i>
 			
 			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
 		</a>
           
         </li>
@@ -263,7 +285,8 @@
                 <div class="tag-title center-align">
                     <i class="fas fa-comments"></i>&nbsp;&nbsp;Contact
                 </div>
-                <script>
+                <p><strong></strong></p><center><strong>You can just write all you want to say here.</strong></center><p></p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -286,34 +309,35 @@
         </div>
         <div class="card">
             
+            <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
 
-            
-
-            
-            <div class="disqus-card card" data-aos="fade-up">
-    <div id="disqus_thread" class="card-content">
-        <noscript>Please enable JavaScript to view the
-            <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
-        </noscript>
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
     </div>
+    <div id="gitalk-container" class="card-content"></div>
 </div>
 
-<script type="text/javascript">
-    disqus_config = function () {
-        this.page.url = 'https://blog.zegwe.tech/contact/index.html';
-        this.page.identifier = '/contact/index.html';
-        this.page.title = 'contact';
-    };
-    let disqus_shortname = 'ZegWe';
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: 'a1f036b0fe150782a80f',
+        clientSecret: '920e9475001e3f991ded2a4acc5267a91c8f8a6b',
+        repo: 'comments',
+        owner: 'ZegWe',
+        admin: "ZegWe",
+        id: '2019-11-16T13-05-29',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
 
-    (function () { // DON'T EDIT BELOW THIS LINE
-        let d = document, s = d.createElement('script');
-        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
-        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+    gitalk.render('gitalk-container');
 </script>
+            
+
+            
+
             
 
             
