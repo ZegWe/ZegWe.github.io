@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ZegWeのBlog</title>
+  
+  <subtitle>This is how it begins</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.zegwe.tech/"/>
+  <updated>2020-01-15T18:52:07.161Z</updated>
+  <id>https://blog.zegwe.tech/</id>
+  
+  <author>
+    <name>ZegWe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI Cup 2019</title>
+    <link href="https://blog.zegwe.tech/2019/12/07/AI-Cup-2019/"/>
+    <id>https://blog.zegwe.tech/2019/12/07/AI-Cup-2019/</id>
+    <published>2019-12-06T18:47:07.000Z</published>
+    <updated>2020-01-15T18:52:07.161Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;About-AI-Cup-2019&quot;&gt;&lt;a href=&quot;#About-AI-Cup-2019&quot; class=&quot;headerlink&quot; title=&quot;About AI Cup 2019&quot;&gt;&lt;/a&gt;About AI Cup 2019&lt;/h3&gt;&lt;p&gt;(Russian)
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.zegwe.tech/2019/11/16/hello-world/"/>
+    <id>https://blog.zegwe.tech/2019/11/16/hello-world/</id>
+    <published>2019-11-16T04:08:04.258Z</published>
+    <updated>2019-12-06T19:17:16.332Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Under-Construction&quot;&gt;&lt;a href=&quot;#Under-Construction&quot; class=&quot;headerlink&quot; title=&quot;Under Construction&quot;&gt;&lt;/a&gt;&lt;center&gt;Under
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
