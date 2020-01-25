@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.zegwe.tech/"/>
-  <updated>2020-01-15T21:25:17.202Z</updated>
+  <updated>2020-01-25T09:33:28.501Z</updated>
   <id>https://blog.zegwe.tech/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>A Review of 2019</title>
+    <link href="https://blog.zegwe.tech/2020/01/24/A-Review-of-2019/"/>
+    <id>https://blog.zegwe.tech/2020/01/24/A-Review-of-2019/</id>
+    <published>2020-01-23T16:34:14.000Z</published>
+    <updated>2020-01-25T09:33:28.501Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Life" scheme="https://blog.zegwe.tech/categories/Life/"/>
+    
+    
+      <category term="Life" scheme="https://blog.zegwe.tech/tags/Life/"/>
+    
+  </entry>
+  
+  <entry>
     <title>AI Cup 2019</title>
     <link href="https://blog.zegwe.tech/2019/12/07/AI-Cup-2019/"/>
     <id>https://blog.zegwe.tech/2019/12/07/AI-Cup-2019/</id>
     <published>2019-12-06T18:47:07.000Z</published>
-    <updated>2020-01-15T21:25:17.202Z</updated>
+    <updated>2020-01-25T09:38:09.263Z</updated>
     
     <summary type="html">
     
@@ -36,15 +67,19 @@
     </summary>
     
     
+      <category term="Others" scheme="https://blog.zegwe.tech/categories/Others/"/>
+    
+    
+      <category term="AI-Cup" scheme="https://blog.zegwe.tech/tags/AI-Cup/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://blog.zegwe.tech/2019/11/16/hello-world/"/>
-    <id>https://blog.zegwe.tech/2019/11/16/hello-world/</id>
-    <published>2019-11-16T04:08:04.258Z</published>
-    <updated>2019-12-06T19:17:16.332Z</updated>
+    <link href="https://blog.zegwe.tech/2019/11/16/Hello-World/"/>
+    <id>https://blog.zegwe.tech/2019/11/16/Hello-World/</id>
+    <published>2019-11-16T09:29:29.000Z</published>
+    <updated>2020-01-25T09:34:20.483Z</updated>
     
     <summary type="html">
     
@@ -59,6 +94,10 @@
     </summary>
     
     
+      <category term="Life" scheme="https://blog.zegwe.tech/categories/Life/"/>
+    
+    
+      <category term="Life" scheme="https://blog.zegwe.tech/tags/Life/"/>
     
   </entry>
   

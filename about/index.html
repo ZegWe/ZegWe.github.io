@@ -294,13 +294,23 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">2</a></span>
+    <span class="count"><a href="/">3</a></span>
     <span class="name">Posts</span>
 </div>
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">2</a></span>
+    <span class="name">Categories</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">2</a></span>
+    <span class="name">Tags</span>
+</div>
 
 
                     </div>
@@ -314,13 +324,23 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">2</a></span>
+    <span class="count"><a href="/">3</a></span>
     <span class="name">Posts</span>
 </div>
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">2</a></span>
+    <span class="name">Categories</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">2</a></span>
+    <span class="name">Tags</span>
+</div>
 
 
                                 </div>
@@ -328,10 +348,6 @@
                                 <div class="career">Student</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
-    <a href="https://github.com/ZegWe" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
 
 
     <a href="mailto:1278300305@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
@@ -357,6 +373,10 @@
 
 
 
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
 
 
                                 </div>
@@ -366,10 +386,6 @@
                     <div class="col l4 hide-on-med-and-down" data-aos="zoom-in-left">
                         <div class="social-link">
                             
-    <a href="https://github.com/ZegWe" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
 
 
     <a href="mailto:1278300305@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
@@ -396,6 +412,10 @@
 
 
 
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
 
                         </div>
 					</div>
@@ -403,12 +423,12 @@
 
                 <div class="introduction center-align" data-aos="fade-up">NUAAer</div>
 				
-				<div class="center-align" data-aos="fade-up"><p>An undergraduate studying in Najing University of Aeronautics and Astronautics(NUAA).<br>Love computer technology but not a student in this major.</p>
-<p>OS X/Win10/Android User</p>
+				<div class="center-align" data-aos="fade-up"><p>An undergraduate studying in Najing University of Aeronautics and Astronautics(NUAA). </p>
+<p>Love computer technology but not a student in this major.</p>
+<p>OS X/Win10/Android User.</p>
 <p>Used to be an OIer, and an ACMer now.</p>
 <p>A novice player of Osu! and Dota2.</p>
-<p>Interested in Japanese culture, and used to be an enthusiast of ACG. But now I’m not.</p>
-<p>Big fan of James Blunt and Aragaki Yui.</p>
+<p>A Japanese beginner interested in Japanese culture.</p>
 <p>An Amateur Harmonica player.</p>
 <p>…</p>
 <script>
@@ -429,6 +449,20 @@
             });
             document.body.appendChild(img);
           });
+      </script>
+      <script>
+        window.disqusProxy={
+          shortname: 'ZegWe',
+          username: 'ZegWe',
+          server: '45.63.115.228',
+          port: 10505,
+          adminAvatar: '/avatars/admin-avatar.jpg',
+          identifier: 'about/index.html',
+        };
+        window.disqus_config = function () {
+          this.page.url = window.location.href;
+          this.page.identifier = window.disqusProxy.identifier;
+        };
       </script></div>
 
                 <style type="text/css">
@@ -490,7 +524,7 @@
                 name: 'Number of posts',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,1,1,0],
+                data: [0,0,0,0,0,0,0,0,0,0,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -532,7 +566,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"Life","value":2},{"name":"Others","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -556,7 +590,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["Life","AI-Cup"]
             }
         ],
         yAxis: [
@@ -569,7 +603,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [2,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -651,6 +685,18 @@
     <div class="other-skills chip-container" data-aos="zoom-in-up">
         <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;Other Skills</div>
         <div class="tag-chips center-align">
+            
+            
+            <a href="/tags/Life/">
+                <span class="chip center-align waves-effect waves-light chip-default">Life</span>
+            </a>
+            
+            
+            
+            <a href="/tags/AI-Cup/">
+                <span class="chip center-align waves-effect waves-light chip-default">AI-Cup</span>
+            </a>
+            
             
         </div>
     </div>
@@ -744,10 +790,6 @@
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/ZegWe" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
 
 
     <a href="mailto:1278300305@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
@@ -773,6 +815,10 @@
 
 
 
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
 
 </div>
     </div>
