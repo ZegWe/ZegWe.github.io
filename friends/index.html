@@ -532,20 +532,6 @@
             document.body.appendChild(img);
           });
       </script>
-      <script>
-        window.disqusProxy={
-          shortname: 'zegwe',
-          username: 'ZegWe',
-          server: '45.63.115.228',
-          port: 10505,
-          adminAvatar: '/avatars/admin-avatar.jpg',
-          identifier: 'friends/index.html',
-        };
-        window.disqus_config = function () {
-          this.page.url = window.location.href;
-          this.page.identifier = window.disqusProxy.identifier;
-        };
-      </script>
             </div>
         </div>
         <div class="card">
@@ -556,7 +542,13 @@
 
             
             <div class="disqus-card card" data-aos="fade-up">
-    <div id="disqus_thread" class="card-content">
+    
+      <script src="//cdn.bootcss.com/react/16.0.0/umd/react.production.min.js"></script>
+      <script src="//cdn.bootcss.com/react-dom/16.0.0/umd/react-dom.production.min.js"></script>
+      <script src="//cdn.bootcss.com/fetch/2.0.3/fetch.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/blockies-identicon@0.1.0/blockies.min.js"></script>
+      <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	  <div id="disqus_thread_proxy" class="card-content"><script src="/scripts/hexo-disqus-proxy-primary.js" async></script>
         <noscript>Please enable JavaScript to view the
             <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
         </noscript>
@@ -564,20 +556,21 @@
 </div>
 
 <script type="text/javascript">
+	window.disqusProxy={
+		shortname: '',
+		username: '',
+		server: '',
+		port: ,
+		adminAvatar: '/avatars/admin-avatar.jpg',
+		identifier: 'friends/index.html',
+	};
     disqus_config = function () {
         this.page.url = 'https://blog.zegwe.tech/friends/index.html';
         this.page.identifier = '/friends/index.html';
         this.page.title = 'friends';
     };
-    let disqus_shortname = 'zegwe';
+    // let disqus_shortname = 'zegwe';
 
-    (function () { // DON'T EDIT BELOW THIS LINE
-        let d = document, s = d.createElement('script');
-        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
-        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
 </script>
             
 
